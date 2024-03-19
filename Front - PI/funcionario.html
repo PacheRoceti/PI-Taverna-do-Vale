@@ -19,19 +19,26 @@
             <a href="Estoque"><li>Estoque</li></a>
             <a href="vendas.html"><li>Vendas</li></a>
             <a href="Produtos"><li>Produtos</li></a>
-            <a href="index.html" id="incio-btn"><li>Início</li></a>
+            <a href="index.html" class="incio-btn"><li>Início</li></a>
         </ul>
     </header>
 
     <aside>
-        <h2><span>Cadastro</span></h2>
-        <h2>Funcionário</h2>
-        <p>Tela Destinada para Cadastrar Novos Funcionários.</p>
-        <form>
-            <input type="text" placeholder="Nome Funcionário">
-            <input type="text" placeholder="Cargo Funcionário">
-            <input type="time" placeholder="Horário Entrada">
-            <input type="time" placeholder="Horário Saída">
+        <h2><span>Registrar</span></h2>
+        <h2>Funcionários</h2>
+        <form class="duplas">
+            <div class="input-topo">
+                <label for="nome-funcionario">Nome Funcionário:</label>
+                <input type="text" id="nome-funcionario" name="nome-funcionario" placeholder="Nome Funcionário" required>
+                <label for="horario-entrada">Entrada:</label>
+                <input type="time" id="horario-entrada" name="horario-entrada" placeholder="Horário Entrada" required>
+            </div>
+            <div class="input-baixo">
+                <label for="cargo-funcionario">Cargo Funcionário:</label>
+                <input type="text" id="cargo-funcionario" name="cargo-funcionario" placeholder="Cargo Funcionário" required>
+                <label for="horario-saida">Saída:</label>
+                <input type="time" id="horario-saida" name="horario-saida" placeholder="Horário Saída" required>
+            </div>
         </form>
     </aside>
     

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles/vendas.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
     <link href="./styles/fonts.css" rel="stylesheet">
     <link href="./styles/media.css" rel="stylesheet">
     <title>Vendas</title>
@@ -19,7 +19,7 @@
             <a href="Estoque"><li>Estoque</li></a>
             <a href="Produtos"><li>Produtos</li></a>
             <a href="funcionario.html"><li>Funcionários</li></a>
-            <a href="index.html" id="incio-btn"><li>Início</li></a>
+            <a href="index.html" class="incio-btn"><li>Início</li></a>
         </ul>
     </header>
     <aside>
@@ -39,7 +39,7 @@
               </div>
               <div class="forma-pagamento">
                 <label for="forma-pagamento">Forma de Pagamento:</label>
-                <select id="forma-pagamento" name="forma-pagamento">
+                <select id="forma-pagamento" name="forma-pagamento" required>
                   <option value="dinheiro">Dinheiro</option>
                   <option value="pix">Pix</option>
                   <option value="credito">Crédito</option>
@@ -48,7 +48,7 @@
               </div>
               <div class="data">
                 <label for="data">Data:</label>
-                <input type="date" id="data" name="data">
+                <input type="date" id="data" name="data" required>
               </div>
             <button type="submit" required>Enviar ></button>
         </form>
