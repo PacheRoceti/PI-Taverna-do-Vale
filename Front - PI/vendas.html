@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/vendas.css" rel="stylesheet">
     <link href="./styles/fonts.css" rel="stylesheet">
     <link href="./styles/media.css" rel="stylesheet">
     <title>Vendas</title>
@@ -27,9 +27,30 @@
         <h2>Vendas</h2>
         <p>Sessão destinada para colocar novas vendas de sua adega.</p>
         <form>
-            <input type="date" placeholder="Usuário">
-            <input type="" placeholder="Senha">
-            <input type="submit" value="Enviar >">
+            <div class="container-inputs">
+                <div class="valor-parcial">
+                  <label for="valor-parcial">Valor Parcial:</label>
+                  <input type="text" id="valor-parcial" name="valor-parcial" value="R$ 100,00" required>
+                </div>
+                <div class="valor-final">
+                  <label for="valor-final">Valor Final:</label>
+                  <input type="text" id="valor-final" name="valor-final" value="R$ 100,00" required>
+                </div>
+              </div>
+              <div class="forma-pagamento">
+                <label for="forma-pagamento">Forma de Pagamento:</label>
+                <select id="forma-pagamento" name="forma-pagamento">
+                  <option value="dinheiro">Dinheiro</option>
+                  <option value="pix">Pix</option>
+                  <option value="credito">Crédito</option>
+                  <option value="debito">Débito</option>
+                </select>
+              </div>
+              <div class="data">
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data">
+              </div>
+            <button type="submit" required>Enviar ></button>
         </form>
     </aside>
     <footer></footer>
