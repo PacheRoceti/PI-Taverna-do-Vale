@@ -1,4 +1,4 @@
-package br.com.dropofgold.dropofgold.model;
+package br.com.tavernadovale.tavernadovale.model;
 
 import org.hibernate.annotations.Collate;
 

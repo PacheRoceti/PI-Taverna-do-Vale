@@ -1,4 +1,4 @@
-package br.com.dropofgold.dropofgold.controller;
+package br.com.tavernadovale.tavernadovale.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin("*")
-public class UsuarioController {
+public class EstoqueController {
     
-    @GetMapping("/usuarios")
+    @GetMapping("/estoque")
     public String texto(){
         return "Hello World";
     }
