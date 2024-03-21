@@ -1,8 +1,5 @@
 package br.com.tavernadovale.tavernadovale.model;
 
-import org.hibernate.annotations.Collate;
-
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,14 +10,25 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "estoque")
 public class Estoque {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_registro")
     public int id_produto;
+    
+    
     public String nome;
+    
+    
     public String tipo;
+    
+    
     public int quantidade;
+    
+    
     public String data_validade;
+    
+    
     public String numero_lote;
     
     public int getId_produto(){
