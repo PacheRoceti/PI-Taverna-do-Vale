@@ -1,11 +1,23 @@
 Sistema feito durante o 3º Semestre de Sistemas de Informação.
 
-É uma ERP de nicho para adegas, onde temos todo o controle de estoque, funcionários, produtos e cadastro de vendas. As informações são guardadas em um banco de dados do no MySQL.
+Conmtinuação do Projeto do semestre anterior, aqui fizems algumas melhorias no sistemas, e fizemos um site para ele. É uma ERP de nicho para adegas, onde temos todo o controle de estoque, funcionários, produtos e cadastro de vendas.  
+
+##Utilizamos para esse Projeto
+
+```text
+JDK: 21.0.1
+MySQL connector JAVA: 8.1
+MySQL: 8.1
+Apache NetBeans: 18
+HTML5
+CSS3
+Visual Studio Code
+```
 
 Integrantes:
 
-Daniel Filho de Oliveira Lima
+* [Daniel Filho Oliveira Lima](https://github.com/danieldf0l/)
 
-Pedro Gustavo de Campos Teixeira da Silva
+* [Pedro Gustavo De Campos Teixeira Silva](https://github.com/pedrogcts)
 
-Pedro Roceti Pache
+* [Pedro Roceti Pache](https://github.com/PacheRoceti)
