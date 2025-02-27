@@ -2,7 +2,7 @@ Sistema feito durante o 3º Semestre de Sistemas de Informação.
 
 Conmtinuação do Projeto do semestre anterior, aqui fizems algumas melhorias no sistemas, e fizemos um site para ele. É uma ERP de nicho para adegas, onde temos todo o controle de estoque, funcionários, produtos e cadastro de vendas.  
 
-##Utilizamos para esse Projeto
+Utilizamos para esse Projeto:
 
 ```text
 JDK: 21.0.1
